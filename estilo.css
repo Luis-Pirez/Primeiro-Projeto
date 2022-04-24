@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+font-family: 'Trebuchet MS', Helvetica, sans-serif;
+background: #fff url(../Projeto_1_carros/imagens/Simbolo.jpg) repeat-x;
+}
+
+#container {
+width: 750px;
+margin: 0 auto;
+}
+
+#topo {
+    height: 150px;
+    padding-top: 5px;
+    
+    
+}
+
+.logo{
+    width: 152px;
+    height: 66px;
+    text-indent: -3000px;
+}
+
+/* Barra de Navegação
+
+*/
+
+ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+
+}
+#topo ul {
+    margin-top: 420px;
+    background: #b10333;
+    float: left;
+}
+#topo ul li {
+    float: left;
+}
+#topo ul a {
+    font-size: 0.9em;
+    display: block;
+    padding: 0.5em 1.5em;
+    line-height: 2.1em;
+    text-decoration: none;
+    color: #fff;
+    
+}
+#topo ul .primeiro a{
+    background: none;
+}
+#topo ul a:hover {
+    color: #69001d;
+    
+}
+
+body.audi #navegacao a#audi,
+body.lamborghini #navegacao a#lamborghini,
+body.bmw #navegacao a#bmw,
+body.mercedes #navegacao a#mercedes,
+body.ferrari #navegacao a#ferrari,
+body.bentley #navegacao a#bentley,
+body.astonmartim #navegacao a#astonmartim
+{
+    color: #fff;
+    background: #db124b;
+    cursor: text;
+
+}
+
+/* conteúdo e lateral*/
+
+#conteudo {
+    background: #f5f5f5;
+    margin-top: 80px;
+}
+
+#lateral {
+    width: 180px;
+    margin: 0 0 20px -750px;
+    float: left;
+}
+
+#primario {
+    width: 270px;
+    margin: 0 0 20px 195px;
+    float: left;    
+ }
+
+#colunas #primario {
+    width: 542px;
+        
+}
+
+#container-rodape {
+background: #294c71;
+padding: 20px;
+}
+/* Caixa */
+.caixa{
+margin: 10px 0;
+padding: 5px;
+}
+h2 {
+    font-size: 1.1em;
+    background: #294c71;
+    color: #fff;
+    padding: 5px;
+}
+
+#lateral ul a {
+    font-size: 0.9em;
+    padding: 3px;
+    display: block;
+    line-height: 30px;
+    color: #000;
+    text-decoration: none;
+    border-bottom: 1px solid #f3ebeb;
+}
+#lateral ul a:hover {
+    background: #edd7d7
+    color: #4d4a4a;
+    padding-left: 20px;
+
+}
+
+.destaque h3 {
+    background: #b10333;
+    color: #fff;
+}
+
+#rodape {
+    width: 750px;
+    margin: 0 auto;
+    color: #fff;
+}
